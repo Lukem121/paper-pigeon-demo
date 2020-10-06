@@ -1,6 +1,6 @@
 <script>
 	import { Discord } from 'paper-pigeon';
-	const send = new Discord(WEBHOOK_URL);
+	const send = new Discord(process.env.WEBHOOK_URL);
 
 	let text = "";
 
