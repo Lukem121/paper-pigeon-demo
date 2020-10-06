@@ -16,7 +16,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "paper-pigeon": "^1.0.4",
+    "paper-pigeon": "^1.0.7",
     "sirv-cli": "^1.0.0"
   }
 }
