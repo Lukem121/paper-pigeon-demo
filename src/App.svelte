@@ -1,7 +1,7 @@
 <script>
 	import { Discord, Slack } from 'paper-pigeon';
 	const send = new Discord("https://discordapp.com/api/webhooks/763031675361034260/Al45h0W9IbGDowO9kNzs0LtUGJWb-PQYzv_MbpqSSx_4YEERFoYhHzBIFAgsfKLd1gMD");
-	const sendSlack = new Slack("https://hooks.slack.com/services/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");
+	const sendSlack = new Slack("https://hooks.slack.com/services/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");
 
 	//Discords
 	let text = "";
@@ -54,6 +54,7 @@
 	<button on:click={handleNormal} style="background: #007bff;" >Normal</button>
 	<button on:click={handleSuccess} style="background: #28a745;" >Success</button>
 	<button on:click={handleError} style="background: #dc3545;">Error</button>
+	<br>
 
 	<hr>
 
