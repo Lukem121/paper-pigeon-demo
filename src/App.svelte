@@ -3,7 +3,7 @@
 	const send = new Discord("https://discordapp.com/api/webhooks/763031675361034260/Al45h0W9IbGDowO9kNzs0LtUGJWb-PQYzv_MbpqSSx_4YEERFoYhHzBIFAgsfKLd1gMD");
 	const sendSlack = new Slack("https://hooks.slack.com/services/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");
 
-	//Discord
+	//Discords
 	let text = "";
 
 	const handleNormal = () => {
